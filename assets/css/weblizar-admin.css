@@ -1,0 +1,108 @@
+.weblizar .error {
+    color: #a00;
+}
+
+.weblizar .page-numbers {
+    background-color: #444444;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 4px 8px;
+    font-size: 1em;
+    transition: all 0.3s ease;
+}
+
+.weblizar .page-numbers:hover {
+    background-color: #fff;
+    border: 1px solid #444444;
+    color: #444444;
+    text-decoration: none;
+}
+
+.weblizar span.page-numbers.current {
+    background-color: #fff;
+    border: 1px solid #444444;
+    color: #444444;
+    text-decoration: none;
+}
+
+.weblizar .weblizar-search-button i {
+    padding: 0 8px;
+}
+
+#weblizar_job_portal_shortcode_copy,
+#weblizar_job_portal_account_shortcode_copy {
+    cursor: pointer;
+    color: green;
+}
+
+.weblizar .weblizar-search-button {
+    cursor: pointer;
+}
+
+.weblizar .fs-wrap {
+    width: 100%;
+}
+
+.weblizar .candidate_remove_label {
+    color: #f03;
+    font-weight: bold;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.weblizar .weblizar-stats-item {
+    height: 7.5rem;
+    color: #444;
+    background-color: #fff;
+    border: 1px solid #adadad;
+    padding-left: .8rem;
+    padding-right: 1rem;
+}
+
+.weblizar .weblizar-stats-icon {
+    font-size: 2.8rem;
+}
+
+.weblizar .weblizar-stats-count {
+    font-size: 1.7rem;
+}
+
+.weblizar .weblizar-stats-title {
+    font-size: 1rem;
+    margin-top: .8rem;
+}
+
+.weblizar a.weblizar-stats-item-link:link,
+.weblizar a.weblizar-stats-item-link:visited,
+.weblizar .weblizar-recent-item-left>a:link,
+.weblizar .weblizar-recent-item-left>a:visited {
+    text-decoration: none;
+    color: #444;
+}
+
+.weblizar a.weblizar-stats-item-link:hover,
+.weblizar .weblizar-recent-item-left>a:hover {
+    color: #007bff;
+}
+
+.weblizar .weblizar-recent-list-title {
+    background-color: #fff;
+    color: #444;
+    padding: .8rem;
+    border-top: 1px solid #adadad;
+    border-left: 1px solid #adadad;
+    border-right: 1px solid #adadad;
+    font-size: 1.1rem
+}
+
+.weblizar .weblizar-recent-list {
+    border: 1px solid #adadad;
+}
+
+.weblizar .weblizar-recent-activities-heading {
+    border: 1px solid #adadad;
+    background-color: #fff;
+    font-size: 1.3rem;
+    margin-bottom: .8rem;
+    padding: .75rem;
+}

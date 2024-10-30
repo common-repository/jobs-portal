@@ -1,0 +1,76 @@
+.weblizar input[type=number],
+.weblizar select.form-control:not([size]):not([multiple]) {
+	height: unset;
+	line-height: unset;
+}
+
+.weblizar-signup-heading,
+.weblizar-login-heading,
+.weblizar-cv-heading,
+.weblizar-company-heading,
+.weblizar-account-heading {
+	font-size: 18px;
+	font-weight: 600;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.weblizar-cv-section-heading {
+	font-size: 17px;
+	font-weight: 600;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.weblizar .weblizar-search-button {
+	cursor: pointer;
+}
+
+.weblizar .fs-wrap {
+	width: 100%;
+}
+
+.weblizar .candidate_remove_label {
+	color: #f03;
+	font-weight: bold;
+	font-size: 1em;
+	cursor: pointer;
+}
+
+.weblizar .weblizar_row_add_more {
+	margin-top: 20px;
+	font-size: 1em;
+}
+
+.weblizar-signup-heading ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.weblizar-signup-heading ul li {
+	float: left;
+}
+
+.weblizar-signup-heading li a {
+	display: block;
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;
+}
+
+.weblizar-signup-heading li a.active {
+	color: #333;
+}
+
+.weblizar-candidate-key {
+	font-weight: bold;
+}
+
+.weblizar-change-password-email {
+	display: none;
+}
+
+.weblizar-recruiter-details ul li {
+	list-style: none;
+}
